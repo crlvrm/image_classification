@@ -3,9 +3,9 @@
 
 ## 数据集格式
 * data
-   ** -train
-    *** --cls1
-   **** ---1.jpg
+** -train
+*** --cls1
+**** ---1.jpg
       ...
     --cls2
     ...
@@ -18,10 +18,10 @@
 
 ## 训练
 ### 单卡训练
-python train.py --cfgs './config/complete.yaml' 
+> python train.py --cfgs './config/complete.yaml' 
 ### 多卡训练
-CUDA_VISIBLE_DEVICES="0,1" python -m torch.distributed.launch --nproc_per_node 2 main.py --cfgs './config/complete.yaml'
+> CUDA_VISIBLE_DEVICES="0,1" python -m torch.distributed.launch --nproc_per_node 2 main.py --cfgs './config/complete.yaml'
 
 ## 单张推理
 推理参数需保持和训练参数一样
-python train.py --img './img.jpg' --pt './best.pt' --num_classes 7
+> python train.py --img './img.jpg' --pt './best.pt' --num_classes 7
