@@ -18,9 +18,9 @@
 
 ## 训练
 ### 单卡训练
-'''
+
 > python train.py --cfgs './config/complete.yaml'
-'''
+
 ### 多卡训练
 > CUDA_VISIBLE_DEVICES="0,1" python -m torch.distributed.launch --nproc_per_node 2 main.py --cfgs './config/complete.yaml'
 
