@@ -2,10 +2,10 @@
 基于PyTorch集成Mobilenet、ShuffleNet、ResNet等网络的图像分类demo
 
 ## 数据集格式
-data
-   -train
-    --cls1
-      ---1.jpg
+* data
+   ** -train
+    *** --cls1
+   **** ---1.jpg
       ...
     --cls2
     ...
