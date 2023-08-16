@@ -4,20 +4,11 @@
 ## 数据集格式
     --data
       --train
-        -- clsXXX
+        -- cls1
           -- XXX.jpg/png
       --val
-        -- clsXXX
+        -- cls1
           -- XXX.jpg/png
-<p>data</p>
-<p>-train</p>
-<p>--cls1</p>
-<p>---1.jpg</p>
-<p>---...</p>
-<p>--cls2</p>
-<p>-val</p>
-<p>--cls1</p>
-<p>--cls2</p>
 
 
 ## 配置文件config/complete.yaml
