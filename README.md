@@ -2,16 +2,16 @@
 基于PyTorch集成Mobilenet、ShuffleNet、ResNet等网络的图像分类demo
 
 ## 数据集格式
-#### data
-##### -train
-###### --cls1
-####### ---1.jpg
-      ...
-    --cls2
-    ...
-   -val
-    --cls1
-    --cls2
+<p>data</p>
+<p>-train</p>
+<p>--cls1</p>
+<p>---1.jpg</p>
+<p>---...</p>
+<p>--cls2</p>
+<p>-val</p>
+<p>--cls1</p>
+<p>--cls2</p>
+
 
 ## 配置文件config/complete.yaml
 集成了所有数据增强和训练策略的接口，其中model只能调用torchvision中已构建的模型，详细见文件中的注释
