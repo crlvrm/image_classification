@@ -1,0 +1,2 @@
+# image_classification
+基于PyTorch集成Mobilenet、ShuffleNet、ResNet等网络的图像分类demo
